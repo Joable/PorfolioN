@@ -1,0 +1,14 @@
+<div class="mat-card card">
+    <div class="card-titles">
+        <h2>Acerca de mi</h2>
+        <div class="btn-edit pull-right" (click)="altInput()">
+                <i class="fa fa-pen"></i>
+        </div>
+    </div>
+    <div>
+        <p id="text-acercade">{{miPorfolio.about.content}}</p>
+    </div>
+    <div *ngIf="showInput">
+        <input id="edit-acercade" type="text">
+    </div>
+</div>

@@ -1,0 +1,36 @@
+/* Carta de nombre */
+#profile-background{
+    display: flex;
+    width: 100%;
+    height: 360px;
+    background-image: url(../../assets/img/7fa7505122222e7c7351cae71b559cd2.gif);
+    background-repeat: repeat;
+    border-radius: 32px 32px 0 0;
+
+}
+#profile-background img{
+    border-radius: 32px 0px 0 0;
+    height: 180px;
+    display: none;
+}
+
+.profile-image{
+    border-radius: 50%;
+    width: 152px;
+    height: 152px;
+    margin-top: -110px;
+    z-index: 1;
+}
+div#info-action{
+    display: flex;
+}
+
+#info-nombre{
+    border-radius: 0 0 32px 32px;
+    border: 1px;
+    border-color: black;
+}
+
+#info-data{
+    padding: 16px;
+}

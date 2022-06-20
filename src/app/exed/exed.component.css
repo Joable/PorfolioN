@@ -1,0 +1,26 @@
+
+/* Carta Experiencia */
+div.cont-exp{
+    display: flex;
+    margin-bottom: 16px;
+}
+.cont-exp a{
+    text-decoration: none;
+    color: black;
+}
+div.cont-exp:last-child{
+    margin-bottom: 0;
+}
+.experiencia img{
+    width: 75px;
+    height: 75px;
+    margin: 0;
+}
+
+.info-exp{
+    margin-left: 16px;
+}
+
+.info-exp p{
+    margin-bottom: 0%;
+}

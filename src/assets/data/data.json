@@ -1,0 +1,33 @@
+{
+    "name" : "Joaquin Elias Altable",
+    "backImage":"../../assets/img/7fa7505122222e7c7351cae71b559cd2.gif",
+    "image": "../../assets/img/Captura.JPG",
+    "position": "Jr. Web Developer",
+    "location": "Boedo, C.A.B.A.",
+    "about":{
+        "title": "Acerca de mi",
+        "content": "El sueñardo del pibe"
+    },
+    "education":[{
+            "img": "../../assets/img/UBA.png",
+            "institution": "Facultad de Ingenieria de la Universidad de Buenos Aires",
+            "study": "Ingenieria Informatica",
+            "start": "2020",
+            "finish": "Actualidad"
+        },
+        {
+            "img": "../../assets/img/AP.PNG",
+            "institution": "Curso Argentina Programa",
+            "study": "Desarrollo Web Full-Stack",
+            "start": "02/02/2022",
+            "finish": "02/08/2022"
+        },
+        {
+            "img": "../../assets/img/et11.png",
+            "institution": "Escuela Tecnica N°11 Manuel Belgrano",
+            "study": "Tecnico Electromecanico",
+            "start": "2013",
+            "finish": "2019"
+        }]
+
+}

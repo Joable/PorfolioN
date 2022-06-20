@@ -1,0 +1,16 @@
+div.projects{
+    margin-left: 10px;
+}
+
+.projects a{
+    text-decoration: none;
+    color:rgb(0, 195, 255);
+}
+
+.projects h2{
+    margin: 0%;
+}
+
+.projects p{
+    margin-left: 10px;
+}

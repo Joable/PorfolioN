@@ -1,0 +1,24 @@
+<div class="mat-card card" id="first-card">
+    <div id="profile-background" ><img [src]="miPorfolio.backImage" alt="china"></div>
+    <div id="info" style="padding: 16px">
+        <div id="info-img">
+            <img class="profile-image" [src]="miPorfolio.image" width="500" height="600" alt="Foto de Perfil">
+            <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>
+        </div>
+    </div>
+    <div id="info-data">
+        <div id="info-nombre">
+            <h1>{{miPorfolio.name}}</h1>
+            <div id="info-company">{{miPorfolio.position}}</div>
+            <div id="info-contact">
+                <span>{{miPorfolio.location}}</span>
+            </div>
+            <span><a href="#">Informacion de contacto</a></span>
+        </div>
+        <div id="info-actions">
+            <button type="button" class="btn btn-primary">Tengo interés en</button>
+            <button type="button" class="btn btn-light">Añadir Sección</button>
+            <button type="button" class="btn btn-light">Más</button>
+        </div>
+    </div>
+  </div>
