@@ -9,6 +9,7 @@ import { GetDataService } from '../services/get-data.service';
 export class AcercaComponent implements OnInit {
   showInput:boolean = false;
   miPorfolio:any;
+  texto:string = '';
 
   constructor(private datosPorfolio: GetDataService) { }
 
